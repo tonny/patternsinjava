@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Evaluacion()
+comment1.params=a
+comment1.target=void\ evaluar(ArrayList<Alumno>)
+comment2.target=void\ mostrar()
+comment3.target=int\ generarNota()
+numComments=4
