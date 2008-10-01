@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=nombres\ apellidos\ ci
+comment0.target=Persona(String,\ String,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Persona\n\n
+comment1.target=String\ getNombreCompleto()
+comment1.text=\nReturns\ the\ compete\ name\ of\ the\ person\n\n@String\ \ \ el\ nombre\ completo\ de\ la\ persona\n\n
+comment2.target=int\ getCi()
+comment2.text=\nRetorna\ el\ ci\ de\ la\ persona\n\n@int\ \ \ \ retorna\ el\ ci\ de\ la\ persona\n\n
+numComments=3

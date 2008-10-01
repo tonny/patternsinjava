@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=alumno\ nota
+comment0.target=Nota(Alumno,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Nota\n\n
+numComments=1

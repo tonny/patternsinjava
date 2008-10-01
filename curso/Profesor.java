@@ -5,29 +5,27 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Profesor
+public class Profesor extends Persona
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private long nit;
 
     /**
      * Constructor for objects of class Profesor
      */
-    public Profesor()
+    public Profesor(String nombres, String apellidos, int ci, long nit)
     {
-        // initialise instance variables
-        x = 0;
+       super(nombres, apellidos, ci);
+       this.nit = nit;
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Devuelve el nit del profesor
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @long   el nit del profesor  
      */
-    public int sampleMethod(int y)
+    public long devolverNit()
     {
-        // put your code here
-        return x + y;
+        return this.nit;
     }
 }

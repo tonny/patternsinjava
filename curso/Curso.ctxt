@@ -1,9 +1,11 @@
 #BlueJ class context
 comment0.target=Curso()
 comment1.params=p
-comment1.target=void\ agregarPro(Profesor)
+comment1.target=void\ registrarProfesor(Profesor)
 comment2.params=p
-comment2.target=void\ agregarAlumnos(Alumno)
-comment3.target=void\ evaluar()
-comment4.target=void\ reportesCusro()
-numComments=5
+comment2.target=void\ registrarAlumno(Alumno)
+comment3.target=ArrayList<Alumno>\ getListaAlumnos()
+comment4.params=evaluacion
+comment4.target=void\ evaluar(Evaluacion)
+comment5.target=Reportes\ reportesCusro()
+numComments=6

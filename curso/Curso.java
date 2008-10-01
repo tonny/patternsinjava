@@ -1,28 +1,31 @@
 import java.util.*;
 public class Curso{
 private ArrayList<Profesor> profesores;
-private ArrayList<Alumno> alumnos;
-private Evaluacion eva;
-private Reportes rep;
+private ArrayList<Alumno> listaAlumnos;
+private ArrayList<Evaluacion> evaluaciones;
+private Reportes reporte;
     public Curso(){
         profesores=new ArrayList<Profesor>();
-        alumnos=new ArrayList<Alumno>();
-        eva= new Evaluacion();
-        rep=new Reportes();
-        eva.addObserver(rep);
+        listaAlumnos=new ArrayList<Alumno>();
+        evaluaciones = new ArrayList<Evaluacion>();
+        reporte=new Reportes();
     }
-    public void agregarPro(Profesor p){
+    public void registrarProfesor(Profesor p){
         profesores.add(p);
     }
-    public void agregarAlumnos(Alumno p){
-        alumnos.add(p);
+    public void registrarAlumno(Alumno p){
+        listaAlumnos.add(p);
     }
-    public void evaluar(){
-        eva.evaluar(alumnos);
-        
+    public ArrayList<Alumno> getListaAlumnos(){
+        return this.listaAlumnos;
     }
-    public void reportesCusro( ){
-            
+    public void evaluar(Evaluacion evaluacion){
+        evaluacion.addObserver(this.reporte);
+        evaluaciones.add(evaluacion);
+        evaluacion.evaluar(this.listaAlumnos);        
+    }
+    public Reportes reportesCusro( ){
+        return this.reporte;
     }
     
 }

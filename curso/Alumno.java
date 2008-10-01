@@ -5,18 +5,22 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Alumno
+public class Alumno extends Persona
 {
-    private String n,a;
-    private int nota;
-    public Alumno(String nombre,String apellido){
-        n=nombre;
-        a=apellido;
+    static int alumnos;
+    private int codigosis;
+    public Alumno(String nombres,String apellidos, int ci){
+        super(nombres, apellidos, ci);
+        alumnos++;
+        this.codigosis=20000000 + alumnos;
     } 
-    public void darExamen(int n){
-        nota=n;
+    public int getCodigosis(){
+        return this.codigosis;
+    }
+    public void darExamen(int nota){
+        System.out.println("Nota Examen: "+ nota);
     }
     public String mostrarNota(){
-        return ""+n+a+nota;
+        return ""+35;
     }
 }
