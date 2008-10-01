@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=notamaxima
+comment0.target=EvaluacionEscrita(int)
+comment1.params=curso
+comment1.target=ArrayList<Nota>\ evaluar(Curso)
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=curso
+comment0.target=ArrayList<Nota>\ evaluar(Curso)
+comment1.params=puntaje
+comment1.target=void\ setPuntajeMaximo(int)
+comment2.target=int\ getPuntajeMaximo()
+numComments=3

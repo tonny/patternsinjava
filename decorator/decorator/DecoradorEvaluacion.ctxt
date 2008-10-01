@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=evaluacionADecorar\ notaMaxima
+comment0.target=DecoradorEvaluacion(TipoEvaluacion,\ int)
+comment1.target=int\ getPuntajeMaximo()
+numComments=2
